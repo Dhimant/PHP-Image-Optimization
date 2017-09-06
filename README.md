@@ -20,7 +20,7 @@ or php command line (If you have thousands of images go with command line) .
 
 * For png optimization you have 2 options.
  
-  1. optipng ( You would need to install this if you do not have it already installed on your server.)
+  1. optipng ( You may need to install optipng on server if it is not installed on your server.)
   2. pngout ( pngout binary is included along with the script. You can download latest version for linux from [here.](http://www.jonof.id.au/kenutils )) Don't forget to chmod +x pngout
 
 **optimize_img_resmush.php** 

@@ -6,7 +6,7 @@ $jpg = shell_exec("find -L -type f -name \"*.jpg\" | tr '\n' ',' ");
 $png = shell_exec("find -L -type f -name \"*.png\" | tr '\n' ',' ");
 
 /* Change home_url to your website url */
-$home_url = "http://www.example.com";
+$home_url = "http://www.aackrutiphotostory.com";
 
 $png = explode(',', $png);
 $jpg = explode(',', $jpg);
