@@ -9,7 +9,7 @@ $png = explode(',', $png);
 
 
 echo "PNG: ".count($png).PHP_EOL;
-echo "JPEG: ".count($png).PHP_EOL;
+echo "JPEG: ".count($jpg).PHP_EOL;
 
 exec("find -L -type f -name \"*.jpg\" -exec jpegoptim --strip-all {} \; &");
 
